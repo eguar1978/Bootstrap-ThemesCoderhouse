@@ -110,3 +110,18 @@ footer li{
 form{
     padding-bottom: 20px;
 }
+
+@media only screen and (max-width: 800px) {
+    *{
+        font-size: 0.98em;
+    }
+    #carouselWeb {
+      display: none;
+    }
+    header{
+        margin-top: 50px;
+    }
+    .pie{
+        padding: 10px 0;
+    }
+  }
